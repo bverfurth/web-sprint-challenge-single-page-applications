@@ -17,7 +17,7 @@ function SliceHeader() {
             <Link to="/Form">Order Now Online</Link>
             <img src={Logo} alt="pizza" />
             <Route path="/Form">
-              <PizzaForm />
+              <Form />
             </Route>
           </div>
         </div>
