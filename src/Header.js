@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Route, BrowserRouter as Router } from "react-router-dom";
 import Logo from "./img/Pizza.jpg";
+import Form from "./Form";
 import "./App.css";
 
 function SliceHeader() {
@@ -16,7 +17,7 @@ function SliceHeader() {
           <div className="link2">
             <Link to="/Form">Order Now Online</Link>
             <img src={Logo} alt="pizza" />
-            <Route path="/Form">
+            <Route path="./Form">
               <Form />
             </Route>
           </div>
