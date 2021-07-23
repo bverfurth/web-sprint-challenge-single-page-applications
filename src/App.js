@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "./img/Pizza.jpg";
-import Header from "./Header";
+import SliceHeader from "./Header";
 
 const App = () => {
   return (
